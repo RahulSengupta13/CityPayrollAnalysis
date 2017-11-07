@@ -16,29 +16,6 @@ $(document).ready(function(){
 						'GROUP BY ?o ';
 	var queryUrl1 = 'http://localhost:3030/Payroll/query?output=xml&' +
 				'query=' + encodeURIComponent(queryString1);
-	var xmlquery1 = new XMLHttpRequest();
-	xmlquery1.open ('GET', queryUrl1, false);
-	xmlquery1.setRequestHeader ('Content-type', 'application/x-www-form-urlencoded');
-	xmlquery1.setRequestHeader ("Accept", "application/sparql-results+xml");
-	xmlquery1.onreadystatechange = function () {
-			if (xmlquery1.readyState === 4) {
-				if (xmlquery1.status === 200) {
-					console.log(xmlquery1.responseXML);
-					var xmlstr = (new XMLSerializer()).serializeToString(xmlquery1.responseXML);
-
-					console.log("this is json:"+ xmlstr);
-					barChart(xmlstr);
-
-					$("#query1").text(xmlstr);
-				}
-				else {
-					alert("Sparql query error: " + xmlquery1.status + " " + xmlquery1.responseText);
-				}
-			}
-		};
-		// Send the query to the endpoint.
-	xmlquery1.send();        
-	
 });
 
 var sample_json;
