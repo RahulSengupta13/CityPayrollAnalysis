@@ -47,7 +47,7 @@ function barChart(data)
 {
 console.log("bar chart called");
 var svg = d3.select("#lavsny").append("svg"),
-margin = {top: 15, right: 10, bottom: 5, left: 30},
+margin = {top: 10, right: 10, bottom: 80, left: 100},
 width = 400 - margin.left - margin.right,
 height = 200 - margin.top - margin.bottom;
 
