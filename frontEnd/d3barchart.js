@@ -503,6 +503,7 @@ $(document).ready(function(){
 
 function barChart(my_json){
 var mydata = [];
+var padding=100;
 for (var i=0; i<my_json.results.bindings.length; i++){
 //console.log(my_json.results.bindings[i]);
 //  console.log(my_json.results.bindings[i].o.value);
@@ -552,13 +553,15 @@ console.log(d.y);
 
     })]);
 
+
+
     // g.append("g")
     //     .attr("class", "axis axis--x")
     //     .attr("transform", "translate(0," + height + ")")
     //     .call(d3.axisBottom(x));
 
         g.append("g")
-			.classed("axis axis--x", true)
+			.classed("x axis", true)
 			.attr("transform", "translate(" + 0 + "," + height + ")")
 			.call(d3.axisBottom(x))
 				.selectAll("text")
@@ -567,17 +570,19 @@ console.log(d.y);
           .attr("font-size","9px")
 					.attr("dx", -8)
 					.attr("dy", 8)
-					.attr("transform", "translate(0,0) rotate(-45)");
+					.attr("transform", "translate(0,0) rotate(-45)")
+          ;
 
     g.append("g")
-        .attr("class", "axis axis--y")
+        .attr("class", "y axis")
         .call(d3.axisLeft(y).ticks(5))
       .append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 6)
         .attr("dy", "0.71em")
         .attr("text-anchor", "end")
-        .text("Average Salary");
+        .text("Average Salary")
+      ;
 
     g.selectAll(".bar")
       .data(mydata)
@@ -586,7 +591,28 @@ console.log(d.y);
         .attr("x", function(d) { return x(d.x); })
         .attr("y", function(d) { return y(d.y); })
         .attr("width", x.bandwidth())
-        .attr("height", function(d) { return height - y(d.y); });
+        .attr("height", function(d) { return height - y(d.y); })
+
+      svg.append("text")
+          .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+          .attr("transform", "translate(" + padding / 5 + "," + (height / 2) + ")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+          .text("AverageSalary")
+          .style("fill", "#424242")
+          .style("text-indent","20px")
+          .style("font-size","12px")
+          .style("font-weight","bold");
+
+      svg.append("text")
+          .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+          .attr("transform", "translate(" + (width / 2) + "," + (height + (padding + padding )) + ")")  // centre below axis
+          .text("Department")
+          .style("fill", "#424242")
+          .style("text-indent","20px")
+          .style("font-size","12px")
+          .style("font-weight","bold");
+
+
+
 
 
 }
