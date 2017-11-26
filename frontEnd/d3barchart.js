@@ -1448,6 +1448,203 @@ var my_json7={
     ]
   }
 }
+
+
+var my_json8={
+  "head": {
+    "vars": [ "name" , "title" , "AvgOthours" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "name": { "type": "literal" , "value": "POLICE DEPARTMENT" } ,
+        "title": { "type": "literal" , "value": "P.O. DA DET GR3" } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "450.5" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COUNTY DETECTIVE                                            " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "54.5" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "POLICE DEPARTMENT" } ,
+        "title": { "type": "literal" , "value": "TRAFFIC ENFORCEMENT AGENT" } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "CITY LABORER                                                " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "351.25" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "SECRETARY                                                   " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "177.25" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ADMINISTRATIVE COMMUNITY RELATIONS SPECIALIST               " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COMPUTER SYSTEMS MANAGER                                    " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "INTERPRETER                                                 " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "223.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COLLEGE AIDE                                                " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ADMINISTRATION PUBLIC RECORD OFFICER                        " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "PHOTOGRAPHER                                                " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "436.5" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COMMUNITY ASSISTANT                                         " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "89.788461538461538461538461" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ADMINISTRATIVE PROJECT MANAGER                              " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COMMUNITY COORDINATOR                                       " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "45.108974358974358974358974" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "DIRECTOR OF PUBLIC INFORMATION                              " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "SPECIAL OFFICER                                             " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "18.25" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ELECTRICIAN'S HELPER                                        " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "173.75" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "CITY CUSTODIAL ASSISTANT                                    " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "12.45" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "PRINCIPAL ADMINISTRATIVE ASSOCIATE    " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.166666666666666666666666" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "PAINTER                                                     " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "331.75" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ELECTRICIAN                                                 " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "150.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COMMUNITY ASSOCIATE                                         " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "31.813535911602209944751381" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ADMINISTRATIVE ACCOUNTANT                                   " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ASSISTANT DISTRICT ATTORNEY                                 " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "RACKETS INVESTIGATOR                " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "SUPERVISING ACCOUNTANT INVESTIGATOR                         " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "89.5" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "OFFICE ASSISTANT                                            " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "CARPENTER                                                   " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "225.833333333333333333333333" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "REPORTER/ STENOGRAPHER                                      " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.2" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "ADMINISTRATIVE CHIEF                                        " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "POLICE DEPARTMENT" } ,
+        "title": { "type": "literal" , "value": "POLICE OFFICER" } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "366.7" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "COMPUTER OPERATIONS MANAGER                                 " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "POLICE DEPARTMENT" } ,
+        "title": { "type": "literal" , "value": "SCHOOL CROSSING GUARD" } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "CLERICAL ASSOCIATE                          " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "29.333333333333333333333333" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "SENIOR ACCOUNTANT INVESTIGATOR                              " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "19.375" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "PRINCIPAL ACCOUNTANT INVESTIGATOR                           " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      } ,
+      {
+        "name": { "type": "literal" , "value": "DISTRICT ATTORNEY-MANHATTAN   " } ,
+        "title": { "type": "literal" , "value": "SPECIAL ASSISTANT TO DA                                     " } ,
+        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "0.0" }
+      }
+    ]
+  }
+}
+
 $(document).ready(function(){
     $("#onClick").click(function(){
         console.log("oh yeah");
@@ -1496,6 +1693,13 @@ $(document).ready(function(){
 
 
         barChart7(my_json7);
+
+    });
+    $("#onClick8").click(function(){
+        console.log("oh yeah8");
+
+
+        barChart8(my_json8);
 
     });
 });
@@ -1735,7 +1939,7 @@ console.log(d.y);
         .attr("height", function(d) { return height - y(d.y); })
         .attr("fill",function(d,i){
 
-          console.log("what to do"+d.z);
+
           if(d.z==="lacity")
           {
             console.log("red");
@@ -2008,7 +2212,7 @@ console.log(d.y);
         .attr("height", function(d) { return height - y(d.y); })
         .attr("fill",function(d,i){
 
-          console.log("what to do"+d.z);
+
           if(d.z==="Accountant II")
           {
             console.log("red");
@@ -2180,7 +2384,7 @@ console.log(d.y);
         .attr("height", function(d) { return height - y(d.y); })
         .attr("fill",function(d,i){
 
-          console.log("what to do"+d.z);
+
           if(d.z==="Accountant II")
           {
             console.log("red");
@@ -2461,6 +2665,164 @@ console.log(d.y);
           .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
           .attr("transform", "translate(" + (width / 2) + "," + (height + (padding + padding )) + ")")  // centre below axis
           .text("Department")
+          .style("fill", "#424242")
+          .style("text-indent","20px")
+          .style("font-size","12px")
+          .style("font-weight","bold");
+
+
+
+
+
+}
+
+//
+function barChart8(my_json8){
+  $("#mysvg").html("");
+var mydata = [];
+var padding=100;
+for (var i=0; i<my_json8.results.bindings.length; i++){
+//console.log(my_json.results.bindings[i]);
+//  console.log(my_json.results.bindings[i].o.value);
+//  console.log(my_json.results.bindings[i].avgSal.value);
+
+
+  // x_bar.push(my_json.results.bindings[i].o.value);
+  // y_bar.push(my_json.results.bindings[i].avgSal.value);
+  // {
+  //        "name": { "type": "literal" , "value": "POLICE DEPARTMENT" } ,
+  //        "title": { "type": "literal" , "value": "P.O. DA DET GR3" } ,
+  //        "AvgOthours": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "450.5" }
+  //      }
+
+
+mydata.push({z:my_json8.results.bindings[i].name.value.trim(), x:my_json8.results.bindings[i].title.value, y:my_json8.results.bindings[i].AvgOthours.value});
+
+}
+// function splitString(s){
+//   var result;
+//   result = s.split("/");
+// return result[result.length-1];
+// };
+
+for (var i=0; i<mydata.length; i++){
+ console.log(mydata[i].x);
+ console.log(mydata[i].y);
+ console.log(mydata[i].z);
+}
+
+       // mydata.forEach(function (d) {
+       //
+       //   //console.log(d.x);
+       //   //console.log(d.y);
+       //     d.x = +d.x;
+       //     d.y = +d.y;
+       // });
+
+
+  var svg = d3.select("svg"),
+      margin = {top: 10, right: 20, bottom: 220, left: 90},
+      width = +svg.attr("width") - margin.left - margin.right,
+      height = +svg.attr("height") - margin.top - margin.bottom;
+
+  var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
+      y = d3.scaleLinear().rangeRound([height, 0]);
+
+  var g = svg.append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+    x.domain(mydata.map(function(d,i) {
+console.log(d.x);
+      return d.x;
+
+     }));
+    y.domain([0, d3.max(mydata, function(d) {
+console.log(d.y);
+      return d.y;
+
+    })]);
+
+
+
+    // g.append("g")
+    //     .attr("class", "axis axis--x")
+    //     .attr("transform", "translate(0," + height + ")")
+    //     .call(d3.axisBottom(x));
+
+        g.append("g")
+			.classed("x axis", true)
+			.attr("transform", "translate(" + 0 + "," + height + ")")
+			.call(d3.axisBottom(x))
+				.selectAll("text")
+					.classed("x-axis-label", true)
+					.style("text-anchor", "end")
+          .attr("font-size","9px")
+					.attr("dx", -8)
+					.attr("dy", 8)
+					.attr("transform", "translate(0,0) rotate(-45)")
+          .append("text")
+          .text(function(d,i){
+            return " | "+mydata[i].z;
+          })
+          .style("text-anchor", "end")
+          .attr("font-size","9px")
+					.attr("dx", -8)
+					.attr("dy", 8)
+					.attr("transform", "translate(0,0) rotate(-45)")
+
+          ;
+
+    g.append("g")
+        .attr("class", "y axis")
+        .call(d3.axisLeft(y).ticks(5))
+      .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", "0.71em")
+        .attr("text-anchor", "end")
+        .text("Average Salary(hourly)")
+      ;
+
+    g.selectAll(".bar")
+      .data(mydata)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.x); })
+        .attr("y", function(d) { return y(d.y); })
+        .attr("width", x.bandwidth())
+        .attr("height", function(d) { return height - y(d.y); })
+        .attr("fill",function(d,i){
+
+
+          if(d.z==="POLICE DEPARTMENT")
+          {
+            console.log("red");
+            return "#424242";
+          }
+          else if(d.z==="DISTRICT ATTORNEY-MANHATTAN"){
+
+            console.log("blue");
+            return "steelblue";
+          }
+
+        })
+        ;
+
+      svg.append("text")
+          .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+          .attr("transform", "translate(" + padding / 5 + "," + (height / 2) + ")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+          .text("Average OT Hours")
+          .style("fill", "#424242")
+          .style("text-indent","20px")
+          .style("font-size","12px")
+          .style("font-weight","bold");
+
+      svg.append("text")
+          .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+          .attr("transform", "translate(" + (width / 2) + "," + (height + (padding + padding )) + ")")  // centre below axis
+          .text("Job Title")
           .style("fill", "#424242")
           .style("text-indent","20px")
           .style("font-size","12px")
