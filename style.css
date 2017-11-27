@@ -6,3 +6,6 @@
   .axis--x path {
     display: none;
   }
+.carousel-caption{
+    background: rgba(0,0,0,0.5);
+}
